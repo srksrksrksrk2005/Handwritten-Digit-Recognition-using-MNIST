@@ -1,38 +1,40 @@
-# Handwritten Digit Classification using CNN
+# MNIST Digit Classification using Artificial Neural Network
 
 ## 📌 Project Overview
-This project implements a **Convolutional Neural Network (CNN)** to classify handwritten digits (0–9) using the **MNIST dataset**. The model learns spatial features from images and achieves high classification accuracy.
+This project focuses on **handwritten digit classification** using an **Artificial Neural Network (ANN)** on the **MNIST dataset**. The objective is to train a baseline neural network and improve its performance through **hyperparameter tuning and optimization techniques**.
 
-## 🚀 Features
-- CNN-based deep learning model for digit recognition  
-- ReLU activation to mitigate the vanishing gradient problem  
-- Regularization techniques to improve generalization  
-- End-to-end training and evaluation pipeline  
-- Visualization of model performance  
+## 🚀 Key Highlights
+- Implementation of a fully connected ANN for digit recognition  
+- Use of ReLU activation to reduce vanishing gradient issues  
+- Model performance improvement through parameter tuning  
+- Training and evaluation on standard MNIST dataset  
+- Clear comparison of results before and after optimization  
 
-## 🧠 Model Architecture
-- Convolutional layers for feature extraction  
-- ReLU activation functions  
-- Max pooling layers for dimensionality reduction  
-- Fully connected layers for classification  
-- Softmax output layer  
+## 🧠 Methodology
+- Data preprocessing and normalization  
+- Initial ANN model training  
+- Hyperparameter tuning (learning rate, epochs, hidden units)  
+- Model evaluation using accuracy metrics  
 
 ## 🛠️ Technologies Used
 - Python  
 - TensorFlow / Keras  
 - NumPy  
 - Matplotlib  
-- Jupyter Notebook  
+- Jupyter Notebook
+## 📊 Results
+- Achieves reliable classification accuracy on MNIST
+- Demonstrates the impact of activation functions and tuning
+- Shows improved convergence after optimization
 
+## 📈 Future Enhancements
+- Apply advanced optimizers (Adam, RMSprop)
+- Add regularization techniques (Dropout, L2)
+- Extend to CNN-based architecture for comparison
 
 ## ▶️ How to Run
 1. Clone the repository  
 2. Install required dependencies  
-3. Launch the notebook:
+3. Open the notebook:
    ```bash
-   jupyter notebook cnn_work.ipynb
-
-👤 Author
-
-Sadam Ramakrishna
-B.Tech  – Electrical Engineering
+   jupyter notebook minst_data.ipynb
