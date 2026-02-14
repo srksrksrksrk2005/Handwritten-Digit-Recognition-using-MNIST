@@ -18,7 +18,6 @@ This project focuses on **handwritten digit classification** using an **Artifici
 
 ## 🛠️ Technologies Used
 - Python  
-- TensorFlow / Keras  
 - NumPy  
 - Matplotlib  
 - Jupyter Notebook
